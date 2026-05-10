@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     font-family: "Open Sans", sans-serif;
+}
+.firstMain{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.main{
+    position: relative;
+    height: 95%;
+    width: 95%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.firstDiv{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #fbc50b;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#Pokemon-logo{
+    width: 180px;
+    margin: 15px 40px;
+}
+
+.textDetails{
+    position: absolute;
+    left: 8%;
+    top: 28%;
+}
+.textDetails p:nth-child(1){
+    font-weight: 600;
+    letter-spacing: 4px;
+
+}
+.textDetails h1:nth-child(2){
+    font-size: 100px;
+    margin-left: -5px;
+
+}
+.textDetails p:nth-child(3){
+    font-weight :300;
+    margin: 20px 0px;
+}
+
+.secondDiv{
+    position: absolute;
+    left: 60%;
+    top: 0%;
+    width: 40%;
+    height: 100%;
+    background-color: #fbe8b5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#Pikachu_img{
+    position: absolute;
+    left: 48%;
+    top: 18%;
+}
+
+
+.ri-menu-line{
+    color: #000;
+    font-size: 40px;
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+
+.secondDiv>div{
+    position: absolute;
+    top: 42%;
+    right: 8%;
+}
+.secondDiv>div i:nth-child(1){
+    color: black;
+}
+
+.ri-circle-fill{
+   color: #fbc50b;
+}
